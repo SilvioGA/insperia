@@ -18,9 +18,9 @@ export const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
         {/* Logo */}
-        <a href="http://insperia.xyz/" className="flex items-center">
-          <span className="text-2xl font-bold gradient-text">INSPERIA</span>
-        </a>
+          <a href="#" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="flex items-center">
+            <span className="text-2xl font-bold gradient-text">INSPERIA</span>
+          </a>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <button onClick={() => scrollToSection('services')} className="text-muted-foreground hover:text-foreground transition-colors">
