@@ -17,11 +17,10 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 glass border-b">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
-          <div className="flex items-center">
-            <span className="text-2xl font-bold gradient-text">INSPERIA</span>
-          </div>
-
+        {/* Logo */}
+        <a href="http://insperia.xyz/" className="flex items-center">
+          <span className="text-2xl font-bold gradient-text">INSPERIA</span>
+        </a>
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <button onClick={() => scrollToSection('services')} className="text-muted-foreground hover:text-foreground transition-colors">
